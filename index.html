@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Online Salva</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fffef5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ff9933;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 60px;
+      vertical-align: middle;
+    }
+
+    h1 {
+      display: inline;
+      margin-left: 10px;
+      font-size: 2em;
+    }
+
+    .section {
+      padding: 30px;
+    }
+
+    .menu, .deals {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+
+    .item {
+      border: 1px solid #ddd;
+      border-radius: 15px;
+      padding: 10px;
+      width: 250px;
+      background-color: #fff;
+      box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .item img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-top: 50px;
+    }
+
+    .info {
+      background-color: #fef4e8;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 30px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>
+    
+      Online Salva
+    </h1>
+  </header>
+  <div class="info">
+    <p><strong>Only Online Delivery / Service</strong></p>
+    <p>Delivery Timing: 10:00 AM – 10:00 PM</p>
+    <p>Delivery Charges: Rs. 150</p>
+    <p><strong>Free Delivery on Orders Rs. 1000+</strong></p>
+  </div>
+  <style>
+    .menu-section {
+      padding: 30px;
+      background-color: #fef9f3;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+  
+    .menu-section h2 {
+      font-size: 36px;
+      color: #d35400;
+      margin-bottom: 20px;
+      font-family: 'Segoe UI', sans-serif;
+    }
+  
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+  
+    .menu-item {
+      background-color: #fff;
+      border: 2px solid #f39c12;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 18px;
+      color: #333;
+      font-weight: 500;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+  
+    .menu-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(243, 156, 18, 0.3);
+    }
+  </style>
+  
+  <div class="menu-section">
+    <h2>Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">Chicken Biryani – Rs. 300</div>
+      <div class="menu-item">White Korma – Rs. 400</div>
+      <div class="menu-item">Chicken Korma – Rs. 350</div>
+      <div class="menu-item">Egg Sandwich – Rs. 150</div>
+      <div class="menu-item">Club Sandwich – Rs. 250</div>
+      <div class="menu-item">Special Lachedar Paratha – Rs. 100</div>
+      <div class="menu-item">Roll Eggs – Rs. 200</div>
+      <div class="menu-item">Special Sada Roti – Rs. 10</div>
+    </div>
+  </div>
+  <style>
+    .deals-section {
+      padding: 30px;
+      background-color: #f3f9f9;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 800px;
+      margin: 50px auto;
+      text-align: center;
+    }
+  
+    .deals-section h2 {
+      font-size: 36px;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      font-family: 'Segoe UI', sans-serif;
+    }
+  
+    .deal-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+  
+    .deal-item {
+      background-color: #ffffff;
+      border: 2px solid #3498db;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 18px;
+      color: #333;
+      font-weight: 500;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+  
+    .deal-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(52, 152, 219, 0.3);
+    }
+  
+    .deal-item strong {
+      color: #2980b9;
+    }
+  </style>
+  <div class="deals-section">
+    <h2>Deals</h2>
+    <div class="deal-grid">
+      <div class="deal-item">
+        <p><strong>Combo Deal:</strong> Chicken Biryani + Club Sandwich – Rs. 550</p>
+      </div>
+      <div class="deal-item">
+        <p><strong>Family Deal:</strong> 2 Korma + 4 Roti + 2 half litre Drinks – Rs. 900</p>
+      </div>
+      <div class="deal-item">
+        <p><strong>Breakfast Deal:</strong> 2 Lachedar Paratha + Special Roll Egg – Rs. 300</p>
+      </div>
+      <div class="deal-item">
+        <p><strong>Mini Deal:</strong>  Chicken Korma + 2 Roti + Half litre Drink – Rs.400</p>
+      </div>
+    </div>
+  <h2>Why Choose Online Salva?</h2>
+  <div class="info">
+    <p>✔ Hygienic Home-Made Food</p>
+    <p>✔ Affordable Prices</p>
+    <p>✔ Fast Delivery in Your Area</p>
+    <p>✔ Daily Fresh Ingredients</p>
+  </div>
+<!-- Contact Section -->
+<div class="info" style="background-color: #ffe0b2; margin-top: -10px;">
+  <h3 style="color: #d35400; font-size: 1.8em;">📞 Contact Us</h3>
+  
+  <p style="font-size: 1.1em;">
+    <strong>WhatsApp:</strong> 
+    <span style="color: #27ae60;">0329-6248577</span>
+  </p>
+  <p style="font-size: 1.1em;">
+    <strong>Phone:</strong> 
+    <span style="color: #2980b9;">0309-4603026</span>
+  </p>
+  <p style="font-size: 1.1em;">
+    <strong>Email:</strong> 
+    <span style="color: #8e44ad;">muhammadalimpk446@gmail.com</span>
+  </p>
+</div>
+  <footer>
+    <p>&copy; 2025 Online Salva. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
