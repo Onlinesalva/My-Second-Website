@@ -138,16 +138,25 @@
   <div class="menu-section">
     <h2>Menu</h2>
     <div class="menu-grid">
-      <div class="menu-item">Chicken Biryani – Rs. 300</div>
-      <div class="menu-item">White Korma – Rs. 400</div>
-      <div class="menu-item">Chicken Korma – Rs. 350</div>
-      <div class="menu-item">Egg Sandwich – Rs. 150</div>
-      <div class="menu-item">Club Sandwich – Rs. 250</div>
-      <div class="menu-item">Special Lachedar Paratha – Rs. 100</div>
-      <div class="menu-item">Roll Eggs – Rs. 200</div>
-      <div class="menu-item">Special Sada Roti – Rs. 10</div>
+      <div class="menu-item" onclick="showNumber()">Chicken Biryani – Rs. 300</div>
+      <div class="menu-item" onclick="showNumber()">White Korma – Rs. 400</div>
+      <div class="menu-item" onclick="showNumber()">Chicken Korma – Rs. 350</div>
+      <div class="menu-item" onclick="showNumber()">Egg Sandwich – Rs. 150</div>
+      <div class="menu-item" onclick="showNumber()">Club Sandwich – Rs. 250</div>
+      <div class="menu-item" onclick="showNumber()">Special Lachedar Paratha – Rs. 100</div>
+      <div class="menu-item" onclick="showNumber()">Roll Eggs – Rs. 200</div>
+      <div class="menu-item" onclick="showNumber()">Special Sada Roti – Rs. 10</div>
     </div>
+    <!-- Number display area -->
+    <div id="contactMessage" style="margin-top: 15px; font-weight: bold; color: green;"></div>
   </div>
+  
+  <!-- Add this script at the bottom before </body> -->
+  <script>
+    function showNumber() {
+      document.getElementById('contactMessage').innerText = "📞 Order Now at: 0329-6248577";
+    }
+  </script>
   <style>
     .deals-section {
       padding: 30px;
@@ -192,22 +201,42 @@
       color: #2980b9;
     }
   </style>
-  <div class="deals-section">
-    <h2>Deals</h2>
-    <div class="deal-grid">
-      <div class="deal-item">
-        <p><strong>Combo Deal:</strong> Chicken Biryani + Club Sandwich – Rs. 550</p>
-      </div>
-      <div class="deal-item">
-        <p><strong>Family Deal:</strong> 2 Korma + 4 Roti + 2 half litre Drinks – Rs. 900</p>
-      </div>
-      <div class="deal-item">
-        <p><strong>Breakfast Deal:</strong> 2 Lachedar Paratha + Special Roll Egg – Rs. 300</p>
-      </div>
-      <div class="deal-item">
-        <p><strong>Mini Deal:</strong>  Chicken Korma + 2 Roti + Half litre Drink – Rs.400</p>
-      </div>
+ <div class="deals-section">
+  <h2>Deals</h2>
+  <div class="deal-grid">
+    <div class="deal-item" onclick="showNumber()">
+      <p><strong>Combo Deal:</strong> Chicken Biryani + Club Sandwich – Rs. 550</p>
     </div>
+    <div class="deal-item" onclick="showNumber()">
+      <p><strong>Family Deal:</strong> 2 Korma + 4 Roti + 2 half litre Drinks – Rs. 900</p>
+    </div>
+    <div class="deal-item" onclick="showNumber()">
+      <p><strong>Breakfast Deal:</strong> 2 Lachedar Paratha + Special Roll Egg – Rs. 300</p>
+    </div>
+    <div class="deal-item" onclick="showNumber()">
+      <p><strong>Mini Deal:</strong> Chicken Korma + 2 Roti + Half litre Drink – Rs. 400</p>
+    </div>
+  </div>
+  <!-- Contact number message area -->
+  <div id="contactMessage" style="margin-top: 15px; font-weight: bold; color: green;"></div>
+</div>
+<!-- Same script (if already not added) -->
+<script>
+  function showNumber() {
+    document.getElementById('contactMessage').innerText = "📞 Order Now at: 0329-6248577";
+  }
+</script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Salva</title>
+
+  <!-- ✅ Add this line below -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7813521812838922"
+     crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
   <h2>Why Choose Online Salva?</h2>
   <div class="info">
     <p>✔ Hygienic Home-Made Food</p>
